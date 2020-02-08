@@ -1,0 +1,31 @@
+       9
+   7       8
+ 6   5   7   2
+3 5 1
+
+: The value 9 is initially added as follows:
+
+# TODO: draw the above heap with the value 8 added but before bubbling.
+
+#After inserting 8:
+       9
+   7       8
+ 6   5   7   2
+3 5 1 8
+
+: After the first bubble-up step, the tree is as follows:
+
+# TODO: show each of the trees as the value 8 is bubbled through the heap.
+#8 is greater than its parent 5, so swap:
+
+       9
+   7       8
+ 6   8   7   2
+3 5 1 5
+
+#8 is greater than 7, so swap:
+
+       9
+   8       8
+ 6   7   7   2
+3 5 1 5

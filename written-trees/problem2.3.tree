@@ -1,0 +1,29 @@
+# TODO: show the list interpreted as a complete binary tree
+
+#array = [8, 6, 1, 5, 7, 9, 4]
+
+# TODO: show each bubble-up operation as the tree is heapified
+
+#Corresponding binary tree:
+
+      8
+   6     1
+  5 7   9 4
+
+#Compare 7 with its parent. 7 > 6, so swap:
+
+      8
+   7     1
+  5 6   9 4
+
+#Compare 9 with its parent. 9 > 1, so swap:
+
+      8
+   7     9
+  5 6   1 4
+
+#Compare 9 with its parent. 9 > 8, so swap:
+
+      9
+   7     8
+  5 6   1 4

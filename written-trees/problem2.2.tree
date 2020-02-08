@@ -1,0 +1,29 @@
+        9
+    6       7
+  4   3   5   2
+ 3 1 2 2 3 4
+# TODO: show the removal of the largest element
+
+#We remove the largest element which is root 9 and replace it with the bottom
+#right-most element:
+
+        4
+    6       7
+  4   3   5   2
+ 3 1 2 2 3
+
+# TODO: show each bubble-down operation
+
+#Compare 4 with both its children and swap it with the greater child (7):
+
+        7
+    6       4
+  4   3   5   2
+ 3 1 2 2 3
+
+#Compare 4 with its children and swap with the greater child (5):
+
+        7
+    6       5
+  4   3   4   2
+ 3 1 2 2 3

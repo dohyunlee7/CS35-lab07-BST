@@ -1,0 +1,30 @@
+    30
+20      40
+           50
+
+: After inserting 47 (but before rebalancing), the tree will look like this:
+
+# TODO
+: \vspace{0.6in}
+   30
+20    40
+         50
+      47
+
+: At this point, the tree is out of balance at node ... so we rotate ...
+
+# TODO: finish the above statement.
+: \vspace{0.6in}
+#left
+
+: The resulting tree looks like this:
+
+# TODO: write the post-balance tree here.
+: \vspace{0.6in}
+    30
+20      47
+      40  50
+
+: Is the tree now balanced?  If not, perform the next rotation here.  Repeat until the tree is balanced.
+: \vspace{1in}
+#The tree is balanced.

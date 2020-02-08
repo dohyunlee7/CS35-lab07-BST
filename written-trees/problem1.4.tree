@@ -1,0 +1,17 @@
+           40
+     24            54
+ 12      36      46  80
+8   13 35  38          81
+ 10
+
+# TODO: write a step-by-step explanation here just as we did with the other problems.
+#After removing 24 from the AVL tree, we get:
+          40
+      13           54
+  10     36      46  80
+8   12 35  38          81
+
+#24 has two children, so we have to find the largest node in the left sub-tree which is 13.
+#Then we move 13 into the node where 24 was and get rid of 24. Then in the same left sub-tree,
+#we make a right rotation to re-balance the tree -- 10 goes in the place of 12, and set
+#8 as the left child of 10 and 12 as the right child of 10.

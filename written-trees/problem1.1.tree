@@ -1,0 +1,14 @@
+     8
+   6     9
+ 4   7
+2
+
+# TODO: write the answer here.
+     6
+   4     8
+ 2     7   9
+
+
+# The X sub-tree contains 4 with the left child 2
+# The Y sub-tree contains 7
+# The Z sub-tree contains 9

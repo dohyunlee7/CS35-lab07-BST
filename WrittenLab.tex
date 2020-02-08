@@ -1,0 +1,51 @@
+% This LaTeX file contains your written lab questions.  You may answer these
+% questions just by inserting your answer into this document.  You are not
+% *required* to do your homework in LaTeX, but it's quite likely to be easier
+% than e.g. the equation editor in OpenOffice Writer or Microsoft Word.
+%
+% If you're unfamiliar with LaTeX, see the document LearningLaTeX.tex in this
+% same directory.  It contains a brief explanation and a few snippets of LaTeX
+% code to get you started; in fact, it should have everything you need to
+% complete this assignment.
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{algpseudocode}
+\usepackage{algorithmicx}
+\usepackage{tikz}
+
+\begin{document}
+
+\section{AVL Trees}
+
+\noindent \textbf{Problem 1.} Perform a right rotation on the root of the following tree.  Be sure to specify the X, Y, and Z subtrees used in the rotation.
+
+\input{written-trees/problem1.1} % This is a lot like a #include in C++: it brings in the contents of problem1.1.tex and puts it here.
+
+\noindent \textbf{Problem 2.} Show the right rotation of the subtree rooted at 27.  Be sure to specify the X, Y, and Z subtrees used in the rotation.
+
+\input{written-trees/problem1.2}
+
+\noindent \textbf{Problem 3.} Using the appropriate AVL tree algorithm, insert the value 47 into the following tree.  Show the tree before and after rebalancing.
+
+\input{written-trees/problem1.3}
+
+\noindent \textbf{Problem 4.} Using the appropriate AVL tree algorithm, remove the value 24 from the following tree.  Show the tree before and after \textit{each} rebalancing.
+
+\input{written-trees/problem1.4}
+
+\section{Heaps}
+
+\noindent \textbf{Problem 1.} Show the addition of the element 8 to the max-heap below.  First, show the addition of 8 to the tree; then, show each bubbling step.
+
+\input{written-trees/problem2.1}
+
+\noindent \textbf{Problem 2.} Show the removal of the top element of this max-heap.  First, show the swap of the root node; then, show each bubbling step.
+
+\input{written-trees/problem2.2}
+
+\noindent \textbf{Problem 3.} Consider the sequence of elements \texttt{[8,6,1,5,7,9,4]}.  Using the representation discussed in class, show the tree to which this sequence corresponds.  Then, show the \textit{heapification} of this tree; that is, show how this tree is transformed into a heap.  Demonstrate each bubbling step.
+
+\input{written-trees/problem2.3}
+\end{document}

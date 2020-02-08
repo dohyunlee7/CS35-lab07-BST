@@ -1,0 +1,16 @@
+           20
+   12              27
+ 8    14        22    30
+        15          28   33
+                           35
+
+
+# TODO: write the answer here.
+           20
+   12              30
+8     14        27     33
+        15    22  28      35
+
+#The X sub-tree contains 22
+#The Y sub-tree contains 28
+#The Z sub-tree contains 33 with a right child of 35

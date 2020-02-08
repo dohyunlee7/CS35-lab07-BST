@@ -1,0 +1,29 @@
+========== Grade ==========
+
+Your score is 97 out of 100
+
+======== Feedback ========
+
+ST Implementation (64/65):
+
+Private Helper Functions:
+Good work, and thank you for the excellent commenting!
+
+LinkedBST Implementation:
+Excellent work implementing all the methods! However, you fail to catch the
+exception when a duplicate key is inserted. (-1)
+
+Tests:
+Excellent work!
+
+Memory:
+Great management!
+
+Coding Style:
+Good commenting and indentation!
+
+Written Lab (33/35):
+Good work! Please include more words in your explanation, and you were supposed to
+show the intermediary steps for 1.3. (-2)
+
+Grades for student(s): mloomis1-dlee4
